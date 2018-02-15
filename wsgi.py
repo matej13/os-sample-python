@@ -6,7 +6,7 @@ application = Flask(__name__)
 #    return "Hello World!123"
 def test(x): #program does nothing as written
     x = 5
-    print x 
+    return x 
 
 if __name__ == "__main__":
     application.run()
